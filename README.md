@@ -6,13 +6,15 @@ The final file is tidy because:
 3. There is one file for each table
 
 Moreover:
-* 1. The first row at the top contains the variable names
-* 2. Variable names are human readable. In this case: 
-*   2a. Double consecutive parenthesis "()" are removed
-*   2b. The erroneous substring "BodyBody" is replaced with "Body"
-*   2c. The substring "fBody" is expanded in the more readable "frequencyBody"
-*   2d. The substring "tBody" is expanded in the more readable "timeBody"
-*   2e. The substring "tGravity" is expanded in the more readable "timeGravity"
+* The first row at the top contains the variable names
+* Variable names are human readable. 
+
+Variable names are more readable because:
+* Double consecutive parenthesis "()" are removed
+* The erroneous substring "BodyBody" is replaced with "Body"
+* The substring "fBody" is expanded in the more readable "frequencyBody"
+* The substring "tBody" is expanded in the more readable "timeBody"
+* The substring "tGravity" is expanded in the more readable "timeGravity"
 
 The script run_analysis.R reads the following files:
 1. *subject_test.txt*        (containing the identifiers of the test subjects)
