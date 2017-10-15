@@ -15,12 +15,12 @@ Moreover:
    2e. The substring "tGravity" is expanded in the more readable "timeGravity"
 
 The script run_analysis.R reads the following files:
-1. test\subject_test.txt   (containing the identifiers of the test subjects)
-2. test\X_test.txt         (containing the measurement of the test subjects)
-3. test\y_test.txt         (containing the identifiers of the test activities)
-4. train\subject_train.txt (containing the identifiers of the training subjects)
-5. train\X_train.txt       (containing the measurement of the training subjects)
-6. train\y_train.txt       (containing the identifiers of the training activities)
+1. subject_test.txt        (containing the identifiers of the test subjects)
+2. X_test.txt              (containing the measurement of the test subjects)
+3. y_test.txt              (containing the identifiers of the test activities)
+4. subject_train.txt       (containing the identifiers of the training subjects)
+5. X_train.txt             (containing the measurement of the training subjects)
+6. y_train.txt             (containing the identifiers of the training activities)
 7. activity_labels.txt     (containing the description of the activities)
 8. features.txt            (containing the desctiption of the measurements)
 
